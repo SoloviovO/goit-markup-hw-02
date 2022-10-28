@@ -1,0 +1,152 @@
+:root {
+--white-color: #ffffff;
+--black-color: #000000;
+--primary-bg-color:#2F303A;
+--secondary-bg-color: #F5F4FA;
+--accent-color: #2196F3;
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
+--thirdy-text-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Глобальні стилі */
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--white-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Стилі шапки */
+/* Логотип */
+
+.logo {
+    color: var(--accent-color);
+}
+
+.logo-main {
+    color: var(--black-color);
+}
+
+.logo-main:hover,
+.logo-main:focus {
+    color: var(--accent-color);
+}
+
+/* Навігація */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Контакти */
+
+.contacts-link {
+    color: var(--secondary-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+/* Стилі головної сторінки */
+/* Вітання і замовлення */
+
+.hero {
+    background-color: var(--primary-bg-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+}
+
+.button-main {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Наші переваги */
+
+.benefits-item {
+
+}
+
+.benefits-text {
+    color: var(--secondary-text-color);
+}
+
+/* Чим ми займаємося */
+
+.affairs-title {
+
+}
+
+/* Наша кломанда */
+
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-prof {
+    color: var(--secondary-text-color);
+}
+
+/* Підвал */
+
+.logo-foot {
+    color: var(--white-color);
+}
+
+.logo-foot:hover,
+.logo-foot:focus {
+    color: var(--accent-color);
+}
+
+footer {
+    background-color: var(--primary-bg-color);
+}
+
+.location-address {
+    color: var(--white-color);
+}
+
+.location-address:hover,
+.location-address:focus {
+    color: var(--accent-color);
+}
+
+.location-link {
+    color: var(--thirdy-text-color);
+}
+
+.location-link:hover,
+.location-link:focus {
+    color: var(--accent-color);
+}
+
+/* Портфоліо */
+
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-bg-color);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.kind {
+    color: var(--secondary-text-color);
+}
