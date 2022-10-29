@@ -47,6 +47,10 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 /* Контакти */
 
 .contacts-link {
